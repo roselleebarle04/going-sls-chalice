@@ -21,3 +21,6 @@ $ chalice new-project helloworld && cd helloworld
 ````
 chalice deploy
 ````
+
+## Resources
+- https://github.com/awslabs/chalice
