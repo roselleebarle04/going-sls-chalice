@@ -8,6 +8,10 @@ def index():
     return {'hello': 'world'}
 
 
+@app.route('/hello/{name}')
+def say_hello_to_name(name):
+    return {'hello': name}
+
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.
 #
